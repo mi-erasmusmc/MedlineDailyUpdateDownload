@@ -18,7 +18,7 @@ example existingFiles.txt available in this repo
 To build the app run `mvn clean package assembly:single`
 
 Then to
-run: `java -jar target/MedlineDownloader-1.0-SNAPSHOT-jar-with-dependencies.jar <path to file with already downloaded files> <folder to store dowloaded files.`
+run: `java -jar target/MedlineDownloader-1.0-SNAPSHOT-jar-with-dependencies.jar <path to file with already downloaded files> <folder to store dowloaded files>`
 The app takes two arguments, first is the location of the file with processed downloads and second the location you wish
 to store your downloads.
 
